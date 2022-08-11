@@ -1,0 +1,32 @@
+Q1/
+OldString = "thanoon"
+charone= input('char: ')
+String_n = OldString.replace(charone,  '')
+print(OldString)
+
+...
+
+Q2/
+numlow = int(input('lower number: '))
+numup = int(input('higher number: '))
+
+print("Prime number from", numlow, "to", numup, "are:")
+
+for num in range(numlow, numup + 1):
+   than 1
+   if num > 1:
+       for i in range(2, num):
+           if (num % i) == 0:
+               break
+       else:
+           print(num)
+           
+...
+
+
+Q3/
+Stringone="thanoon"
+Charone= input('the character you want : ')
+counter = Stringone.count(Charone) 
+
+print ('The count of ' + Charone + ' is: ' + str(counter))
